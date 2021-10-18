@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.98" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2021-09-25T00:17:31" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="user monthly statements test" timestamp="2021-09-25T00:17:31" tests="6" file="/projects/challenge/test/test.js" failures="6" time="1.98">
+    <testcase name="user monthly statements test Should render the filter view initially" time="0.106" classname="Should render the filter view initially">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at Context.<anonymous> (test/test.js:49:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="user monthly statements test Should not start fetching the data if the disabled value is selected in the select menu" time="0.064" classname="Should not start fetching the data if the disabled value is selected in the select menu">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at Context.<anonymous> (test/test.js:56:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="user monthly statements test Should show the loader when a valid value is selected from the select dropdown" time="0.208" classname="Should show the loader when a valid value is selected from the select dropdown">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at Context.<anonymous> (test/test.js:69:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="user monthly statements test Should render the statement view with user data when the data is fetched" time="0.602" classname="Should render the statement view with user data when the data is fetched">
+      <failure message="expected &apos;&apos; to equal &apos;Bob Martin&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Bob Martin'
+    at Context.<anonymous> (test/test.js:82:45)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="user monthly statements test Should render the statement cards properly on the screen" time="0.505" classname="Should render the statement cards properly on the screen">
+      <failure message="expected &apos;&apos; to equal &apos;Bob Martin&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Bob Martin'
+    at validateCards (test/utils.js:122:41)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="user monthly statements test Should fetch and render monthly statements when the selected user changes" time="0.495" classname="Should fetch and render monthly statements when the selected user changes">
+      <failure message="expected &apos;&apos; to equal &apos;Helena Fernandez&apos;" type="AssertionError"><![CDATA[AssertionError: expected '' to equal 'Helena Fernandez'
+    at validateCards (test/utils.js:122:41)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
